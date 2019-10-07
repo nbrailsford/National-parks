@@ -7,6 +7,17 @@
     <title>Document</title>
   </head>
   <body>
+    <form id="js-form">
+      <label for="state">Enter state abbrevation</label>
+      <input id="input" type="text" name="state" />
+      <label for="max-results"
+        >Enter the max results you would like to return</label
+      >
+      <input type="number" name="max-results" id="js-max-results" value="10" />
+      <input id="input" type="submit" value="search" />
+    </form>
+    <p id="js-error-message" class="error-message"></p>
+
     <main class="content"></main>
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
